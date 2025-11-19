@@ -1,0 +1,18 @@
+/* Infinite vertical scroll */
+@keyframes scroll-down {
+  0% { transform: translateY(-50%); }
+  100% { transform: translateY(0); }
+}
+
+@keyframes scroll-up {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-50%); }
+}
+
+.scroll-down {
+  animation: scroll-down 18s linear infinite;
+}
+
+.scroll-up {
+  animation: scroll-up 18s linear infinite;
+}

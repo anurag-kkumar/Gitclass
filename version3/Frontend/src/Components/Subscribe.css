@@ -1,0 +1,28 @@
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-30%);
+  }
+}
+
+.animate-marquee {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee 10s linear infinite alternate;
+}
+@keyframes marqueeS {
+  0% {
+    transform: translateX(-30%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animate-marqueeS {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marqueeS 10s linear infinite alternate;
+}

@@ -1,0 +1,19 @@
+/* Upward movement */
+@keyframes moveUp {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-100%); }
+}
+
+.animate-up {
+  animation: moveUp 18s linear infinite;
+}
+
+/* Downward movement */
+@keyframes moveDown {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(0); }
+}
+
+.animate-down {
+  animation: moveDown 18s linear infinite;
+}
